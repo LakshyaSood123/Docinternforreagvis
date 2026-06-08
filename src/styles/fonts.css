@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600&family=Manrope:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap");
+
+:root {
+  --portal-font-body: "Manrope", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --portal-font-display: "Plus Jakarta Sans", "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --portal-font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+.portal-font-scope {
+  font-family: var(--portal-font-body);
+  font-feature-settings: "liga" 1, "kern" 1;
+  text-rendering: geometricPrecision;
+}
+
+.portal-display {
+  font-family: var(--portal-font-display);
+}
+
+.portal-mono {
+  font-family: var(--portal-font-mono);
+}
