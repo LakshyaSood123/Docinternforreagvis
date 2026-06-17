@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router";
+import { createHashRouter as createBrowserRouter } from "react-router";
 import { InternPortal } from "./components/InternPortal";
 import { AdminDashboard } from "./components/AdminDashboard";
 
